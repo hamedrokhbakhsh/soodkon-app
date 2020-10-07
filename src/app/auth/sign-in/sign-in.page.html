@@ -2,4 +2,42 @@
 
 <ion-content>
 
+    <div class="main">
+        <div class="item1">
+            <img alt="logo" src="assets/login-logo.png">
+        </div>
+        <div class="item2">
+
+            <h1 class="text-right">ورود</h1>
+            <p class="text-right"> یا<a class="text-blue mr-3" routerLink="#">ثبت نام</a></p>
+            <ion-item class="mt-2">
+                <ion-label position="floating">نام کاربری</ion-label>
+                <ion-input type="text"></ion-input>
+            </ion-item>
+            <ion-item class="mt-2">
+                <ion-label position="floating">رمز عبور</ion-label>
+                <ion-input type="password"></ion-input>
+            </ion-item>
+            <div class="mb-3 mt-3 text-right">
+                <a class="text-blue" routerLink="#">فراموش کردن رمز عبور</a>
+            </div>
+
+
+            <button (click)="sign()" class="btn btn-primary mt-3">ورود</button>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
 </ion-content>
+<ion-footer>
+
+</ion-footer>
